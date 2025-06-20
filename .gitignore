@@ -1,0 +1,25 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter/IPython files
+.ipynb_checkpoints
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore CSV files (optional if you don’t want to commit expenses.csv)
+*.csv
