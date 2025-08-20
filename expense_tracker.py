@@ -10,6 +10,7 @@ import datetime               # For date and time operations
 import pandas as pd           # For data manipulation and analysis
 from sqlalchemy import create_engine  # For database connection and operations
 from dotenv import load_dotenv        # For loading environment variables from .env file
+import mysql.connector as mysql  # MySQL connector for Python
 
 # Load environment variables from .env file
 # This allows secure storage of database credentials without hardcoding them
